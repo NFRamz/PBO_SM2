@@ -5,6 +5,7 @@ public class Tugas_1_MD1 {
         int kondisiloop = 0;
         Scanner inputcase = new Scanner(System.in);
         Scanner input1 = new Scanner(System.in);
+        
     do{
         System.out.print("\n==== Library System ====");
         System.out.print("\n1. Login as student\n2. Login as admin\n3. Exit\n");
