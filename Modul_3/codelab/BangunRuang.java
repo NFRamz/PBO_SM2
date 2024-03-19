@@ -2,7 +2,7 @@ public class BangunRuang {
     private String name;
 
     public void inputNilai(){
-        System.out.println("==== Input nilai ====");
+        System.out.println("\n==== Input nilai ====");
     }
 
     public void luasPermukaan(){
