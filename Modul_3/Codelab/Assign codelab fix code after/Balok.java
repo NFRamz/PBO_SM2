@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//membuat class baru dengan nama Balok
 public class Balok extends BangunRuang {
     private double panjang, lebar, tinggi;
 
