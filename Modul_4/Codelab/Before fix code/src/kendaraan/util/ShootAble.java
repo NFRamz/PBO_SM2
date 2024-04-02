@@ -1,6 +1,5 @@
 package kendaraan.util;
 
-
-public interface ShootAble {
+public inter ShootAble {
     void Shoot(String vehicle);
 }

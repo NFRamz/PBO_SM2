@@ -26,7 +26,7 @@ public class Main {
             System.out.printf("Masukkan model kendaraan ke-%d ", (i + 1));
             kendaraan[i].setModel(input.next());
             System.out.printf("Masukkan warna kendaraan ke-%d ", (i + 1));
-            kendaraan[i].setModel(input.next());
+            kendaraan[i].setWarna(input.next());
             System.out.printf("Masukkan tahun kendaraan ke-%d ", (i + 1));
             kendaraan[i].setTahun(input.nextInt());
             System.out.println();
@@ -39,7 +39,7 @@ public class Main {
                 tank.Start();
                 tank.Brake();
                 tank.Stop();
-                tank.Shooting("Truk");
+                tank.Shoot("Truk");
 
             } else if(objectKendaraan instanceof Pesawat){
                 Pesawat pesawat = (Pesawat)objectKendaraan;

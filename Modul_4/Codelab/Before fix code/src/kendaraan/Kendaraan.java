@@ -7,9 +7,7 @@ public abstract class Kendaraan {
     int tahun;
 
     public abstract void Start();
-    public abstract void Stop();
-    public abstract void Brake();
-    //==============================
+    
     public void getInfo(){
         System.out.println("Kendaraan: " + name);
         System.out.println("Model : " + model);
@@ -25,15 +23,25 @@ public abstract class Kendaraan {
         this.name = name;
     }
 
+    public String getModel(){
+        return model;
+    }
+
     public void setModel(String model){
         this.model = model;
     }
 
+    public String getWarna(){
+        return warna;
+    }
 
     public void setWarna(String warna){
         this.warna = warna;
     }
 
+    public int getTahun(){
+        return tahun;
+    }
 
     public void setTahun(int tahun){
         this.tahun = tahun;
