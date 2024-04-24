@@ -5,22 +5,21 @@ public class AccountTest {
         Scanner inputUser = new Scanner(System.in);
         SavingsBond objSavingBond = new SavingsBond();
         CheckingAccount objCheckingAccount = new CheckingAccount("Naufal", 50000);
-
+        //=========================== MENU ================================
         System.out.println("Nama    : " + objCheckingAccount.getName());
         System.out.println("Saldo   : Rp." + objCheckingAccount.getBalance());
-
-        System.out.println("==== MENU ====\n1. Witdrawal \n2. Deposit\n Pilih menu: ");
+        System.out.print("\n==== MENU ====\n1. Witdrawal \n2. Deposit\n> Pilih menu: ");
         int pilihan = inputUser.nextInt();
-        switch(pilihan){
+        switch (pilihan) {
             case 1:
                 objCheckingAccount.withdraw();
-
+                break;
             case 2:
                 objSavingBond.viewDetailInfo(objCheckingAccount.getName(), objCheckingAccount.getBalance());
-
+                break;
             default:
-                System.out.println("Pilih 1-3");
-
+                 System.out.println("=== Invalid Input ===\n>>Pilih 1-2\n \n");
+                 main(null);
         }
     }
 }
