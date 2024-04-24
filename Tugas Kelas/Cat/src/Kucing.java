@@ -3,6 +3,7 @@ public class Kucing {
     public int Lahir = 2020;
     public String jenis = "anggora";
     public String makanankesukaan = "ikan";
+
     public void DetailKucing() {
         System.out.println("Nama: " + this.namaKucing);
         System.out.println("Makanan: " + this.makanankesukaan);
