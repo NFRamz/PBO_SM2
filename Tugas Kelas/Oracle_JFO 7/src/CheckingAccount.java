@@ -7,20 +7,28 @@ public class CheckingAccount {
     private String name;
     Scanner inputUser = new Scanner(System.in);
 
-//=====================SETTER================
-    public void setbalance(double balance){
+    public CheckingAccount(){
+
+    }
+    public CheckingAccount(String name, double balance){
+        this.name = name;
         this.balance = balance;
     }
 
-    public void setname(String name){
-     this.name = name;
+//=====================SETTER================
+    public void setName(String name){
+        this.name   = name;
+    }
+    public void setBalance(double balance){
+        this.balance   = balance;
     }
 
+
     //========================GETTER================
-    public String getname(){
+    public String getName(){
         return name;
     }
-    public double getbalance(){
+    public double getBalance(){
 
         return balance;
     }

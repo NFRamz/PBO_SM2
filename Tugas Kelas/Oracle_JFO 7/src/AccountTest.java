@@ -3,14 +3,11 @@ import java.util.Scanner;
 public class AccountTest {
     public static void main(String[] args) {
         Scanner inputUser = new Scanner(System.in);
-        CheckingAccount objCheckingAccount = new CheckingAccount();
         SavingsBond objSavingBond = new SavingsBond();
+        CheckingAccount objCheckingAccount = new CheckingAccount("Naufal", 50000);
 
-        objCheckingAccount.setname("Naufal");
-        objCheckingAccount.setbalance(100000);
-
-        System.out.println("Nama    : " + objCheckingAccount.getname());
-        System.out.println("Saldo   : " + objCheckingAccount.getbalance());
+        System.out.println("Nama    : " + objCheckingAccount.getName());
+        System.out.println("Saldo   : Rp." + objCheckingAccount.getBalance());
 
         System.out.println("==== MENU ====\n1. Witdrawal \n2. Deposit\n Pilih menu: ");
         int pilihan = inputUser.nextInt();
@@ -19,15 +16,12 @@ public class AccountTest {
                 objCheckingAccount.withdraw();
 
             case 2:
+                objSavingBond.viewDetailInfo(objCheckingAccount.getName(), objCheckingAccount.getBalance());
 
             default:
-
-        }
-
-
-
-
+                System.out.println("Pilih 1-3");
 
         }
     }
+}
 
