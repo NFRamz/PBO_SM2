@@ -45,7 +45,7 @@ public class Main {
                 }
     }
 
-    //method untuk menampilkan lis nama.
+        //method untuk menampilkan lis nama.
         public static void displayName () {
 
             System.out.println("\n-> Daftar mahasiswa yang diinputkan:");

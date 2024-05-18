@@ -20,7 +20,7 @@ public class Student extends User implements iMenu{
     //Arraylist yang dipakai untuk menyimpan list informasi mahasiswa.
     static ArrayList<UserStudent> arr_userStudent = new ArrayList<>();
 
-
+    //====================================  METHOD  =====================================
     //Konstruktor untuk arraylist arr_userStudent.
     static class UserStudent{
         String nama,nim,fakultas,prodi;
@@ -32,7 +32,7 @@ public class Student extends User implements iMenu{
         }
     }
 
-    //====================================  METHOD  =====================================
+
 
     //Method menu yang override dari class iMenu
     @Override

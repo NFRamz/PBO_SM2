@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Book {
 
+    //==================================== ATRIBUT ====================================
     private String bookId;
     private String title;
     private String author;
@@ -18,7 +19,9 @@ public class Book {
     public static ArrayList<Book> arr_borrowedBook = new ArrayList<>();
 
 
-    // 4 Method dengan nama yang sama, bertujuan untuk menerapkan fungsi overloading (Modul 3)
+    //====================================== METHOD ======================================
+
+    // 4 Method konstruktor dengan nama yang sama, bertujuan untuk menerapkan fungsi overloading (Modul 3)
     public Book(){
 
     }
@@ -42,7 +45,7 @@ public class Book {
     }
 
 
-    //=================================== SETTER ========================================
+    //=================================== SETTER METHOD ====================================
     public void setBookId(String bookId){
         this.bookId     = bookId;
     }
@@ -65,7 +68,7 @@ public class Book {
     }
 
 
-    //===================================== GETTER ======================================
+    //=================================== GETTER METHOD ==================================
     public String getBookId(){
         return bookId;
     }
