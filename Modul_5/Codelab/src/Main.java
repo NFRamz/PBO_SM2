@@ -19,12 +19,12 @@ public class Main {
 
     //========================================== METHOD ======================================
 
-    //Untuk masukkan input nama
+    //Method untuk input nama dan menambahkannya ke arraylist.
     public static void inputName() {
 
-                for (int i = 1; i > 0; i++) {//loop for yang dimulai dari i = 1 > 0 agar loop terus berjalan
+                for (int i = 1; i > 0; i++) {
                    System.out.print("-> Masukkan nama ke-" + i + ": ");
-                   String nama = inputUser.nextLine();// untuk menerima input dari user
+                   String nama = inputUser.nextLine();
 
                    try {
                     if(nama.equals("selesai")) {
@@ -45,7 +45,7 @@ public class Main {
                 }
     }
 
-    //untuk menampilkan nama
+    //method untuk menampilkan lis nama.
         public static void displayName () {
 
             System.out.println("\n-> Daftar mahasiswa yang diinputkan:");

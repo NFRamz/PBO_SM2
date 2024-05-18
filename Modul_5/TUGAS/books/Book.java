@@ -11,13 +11,18 @@ public class Book {
     private int stock;
     private int duration;
 
+    //ArrayList untuk menyimpan list buku yang terdaftar.
     public static ArrayList<Book> arr_bookList = new ArrayList<>();
+
+    //ArrayList untuk menyimpan list buku yang sedang dipinjam mahasiswa.
     public static ArrayList<Book> arr_borrowedBook = new ArrayList<>();
 
 
+    // 4 Method dengan nama yang sama, bertujuan untuk menerapkan fungsi overloading (Modul 3)
     public Book(){
 
     }
+
     public Book(String category){
         this.category = category;
     }
@@ -27,7 +32,6 @@ public class Book {
         this.duration = duration;
 
     }
-
     public Book(String bookId, String title, String author,String category, int stock){
         this.bookId   = bookId;
         this.title    = title;
@@ -36,6 +40,9 @@ public class Book {
         this.stock    = stock;
 
     }
+
+
+    //=================================== SETTER ========================================
     public void setBookId(String bookId){
         this.bookId     = bookId;
     }
@@ -58,7 +65,7 @@ public class Book {
     }
 
 
-
+    //===================================== GETTER ======================================
     public String getBookId(){
         return bookId;
     }

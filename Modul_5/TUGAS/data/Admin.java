@@ -6,19 +6,27 @@ import exception.custom.IllegalAdminAccess;
 import util.iMenu;
 
 public class Admin extends User implements iMenu {
+
+    //=================================== ATRIBUT =====================================
     static String adminusername = "admin";
     static String adminpassword = "admin";
 
     static String username, password;
+
+    //Scanner yang dipakai khusus untuk switch case
+    static Scanner inputpilihan = new Scanner(System.in);
+
+    //Scanner yang dipakai untuk menerima berbagai input dari user
     static Scanner inputuser = new Scanner(System.in);
+    static String NIM;
 
+
+    //===================================== METHOD =====================================
+
+    //Method menu yang override dari class iMenu.
     @Override
-
     public void menu() {
 
-            Scanner inputpilihan = new Scanner(System.in);
-
-            Admin adminObject = new Admin();
             System.out.println("\n==== Admin Menu ====");
             System.out.println("\n1. Tambah Mahasiswa\n2. Daftar Mahasiswa\n3. Tambah Buku\n4. Logout");
             System.out.print("Choose option (1-3): ");
@@ -34,7 +42,7 @@ public class Admin extends User implements iMenu {
                     menu();
                     break;
                 case 3:
-                    adminObject.inputBook();
+                    inputBook();
                     menu();
                     break;
                 case 4:
@@ -46,17 +54,18 @@ public class Admin extends User implements iMenu {
             }
     }
 
+
+    //Method untuk menambahkan  mahasiswa.
     public static void addstudent() {
         int loop;
         System.out.println("\n==== Tambah Mahasiswa ====");
         System.out.print("masukkan Nama:");
         String nama = inputuser.nextLine();
 
-        String nim;
         do {
             System.out.print("masukkan NIM:");
-            nim = inputuser.nextLine();
-            if (nim.length() != 15) {
+            NIM = inputuser.nextLine();
+            if (NIM.length() != 15) {
                 System.out.println("\n> NIM harus 15 digit");
                 loop = 0;
             } else {
@@ -69,30 +78,32 @@ public class Admin extends User implements iMenu {
         System.out.print("masukkan jurusan:");
         String jurusan = inputuser.nextLine();
 
-        Student.arr_userStudent.add(new Student.UserStudent(nama, nim, fakultas, jurusan));
+        Student.arr_userStudent.add(new Student.UserStudent(nama, NIM, fakultas, jurusan));
 
         System.out.println("==== berhasil didaftarkan ====");
     }
+
+    //Method untuk menambahkan buku baru, dengan cara override dari class User.
     @Override
     public void inputBook() {
         super.inputBook();
     }
-    @Override
-    public void choiceBooks() {
-        super.choiceBooks();
-    }
+
+    //Method untuk menampilkan infomasi detail mahasiswa.
     public static void displaystudent() {
         System.out.println("\n==== Daftar Mahasiswa ====");
         for (Student.UserStudent i : Student.arr_userStudent) {
-            System.out.print("Nama : "+ i.nama +"\n" );
-            System.out.print("NIM : " + i.nim + "\n");
+            System.out.print("Nama     : "+ i.nama +"\n" );
+            System.out.print("NIM      : " + i.nim + "\n");
             System.out.print("Fakultas : " + i.fakultas + "\n");
-            System.out.print("Prodi : " + i.prodi + "\n");
+            System.out.print("Prodi    : " + i.prodi + "\n");
             System.out.println("============================");
 
         }
 
     }
+
+    //Method yang dipakai untuk login sebagai admin.
     public boolean isAdmin() throws IllegalAdminAccess{
         System.out.println("\n==== Login ====");
         System.out.print("Masukkan Username: \n");
@@ -112,7 +123,7 @@ public class Admin extends User implements iMenu {
         return false;
     }
 
-
+    //method untuk membuat angka random pada id buku.
      public String generateId () {
             Random random = new Random();
 

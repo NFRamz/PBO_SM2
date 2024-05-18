@@ -5,16 +5,24 @@ import books.*;
 import java.util.Scanner;
 
 public class User {
+
+    //===================================== ATRIBUT ======================================
     static  String idBukuYangDipinjam;
-    static String inputwaktuPinjaman;
+
     static  Scanner inputuser = new Scanner(System.in);
     String pilihan, cetak;
 
+
+    //====================================== METHOD =======================================
+
+    //Method yang digunakan untuk meminjam buku
     public void choiceBooks() {
+        Book bookObj = new Book();
         Student studentObj = new Student();
+
         boolean validasi = false;
         int loop = 0;
-        Book bookObj = new Book();
+
         System.out.println("\n=========================================================================================================================");
         System.out.printf("|| %-25s || %-25s || %-25s || %-20s || %-3s ||", "ID Buku", "Nama Buku", "Penulis", "Kategori", "Stok");
         System.out.println("\n=========================================================================================================================");
@@ -27,20 +35,24 @@ public class User {
 
         System.out.println("\n>> Input ID buku yang ingin dipinjam");
         System.out.print(">  ID: ");
+
         idBukuYangDipinjam = inputuser.nextLine();
         for (Book i : Book.arr_bookList) {
             if (i.getBookId().equals(idBukuYangDipinjam)) {
                 if (i.getStock() > 0) {
+
                     int a = i.getStock();
                     a--;
                     i.setStock(a);
+
                     do{
                         System.out.println("\n>> Berapa lama buku ingin dipinjam? (maksimal 14 hari)");
                         System.out.print(">  Berapa hari ? : ");
-                        inputwaktuPinjaman = inputuser.nextLine();
-                        int convert = Integer.parseInt(inputwaktuPinjaman);
-                        if(convert < 15) {
-                            bookObj.setDuration(convert);
+
+                        int inputwaktuPinjaman = inputuser.nextInt();
+
+                        if(inputwaktuPinjaman < 15) {
+                            bookObj.setDuration(inputwaktuPinjaman);
                             Book.arr_borrowedBook.add(new Book(idBukuYangDipinjam, i.getStock(), bookObj.getDuration()));
                             validasi = true;
                             loop = 1;
@@ -101,13 +113,13 @@ public class User {
 
         String idBuku = adminObj.generateId();
 
-        System.out.print("Masukkan judul Buku: ");
+        System.out.print("Masukkan judul Buku       : ");
         String judulBuku = inputuser.nextLine();
 
-        System.out.print("Masukkan Nama Penulis: ");
+        System.out.print("Masukkan Nama Penulis     : ");
         String penulisBuku = inputuser.nextLine();
 
-        System.out.print("Masukkan Jumlah Stok Buku: ");
+        System.out.print("Masukkan Jumlah Stok Buku : ");
         String stokBuku = inputuser.nextLine();
         int stokint =Integer.parseInt(stokBuku);
         bookObj.setBookId(idBuku);
