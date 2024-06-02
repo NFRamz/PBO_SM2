@@ -2,7 +2,7 @@ package data;
 
 
 import books.Book;
-import kotlin.ReplaceWith;
+import exception.custom.IllegalAdminAccess;
 import util.iMenu;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -264,17 +264,16 @@ public class Student extends User implements iMenu {
     }
 
 
-    public boolean isStudents(TextField username){
-        if (username.getText().length() == 15) {
-            for (UserStudent i : arr_userStudent) {
-                if (i.nim.equals(username.getText())) {
-                    menu();
-                    return  true;
-                }else{
-                    return false;
-                }
+    public boolean isStudents(TextField username) throws IllegalAdminAccess {
+        if (username.getText().length() != 15) {
+            throw new IllegalAdminAccess("NIM harus 15 digit!");
+        }
+        for (UserStudent i : arr_userStudent) {
+            if (i.nim.equals(username.getText())) {
+                menu();
+                return false;
             }
         }
-        return false;
+        throw new IllegalAdminAccess("NIM tidak ditemukan!");
     }
 }

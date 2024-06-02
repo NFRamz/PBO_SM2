@@ -3,6 +3,7 @@ package com.main;
 
 import data.Admin;
 import data.Student;
+import exception.custom.IllegalAdminAccess;
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -96,12 +97,17 @@ public class LibrarySystem extends Application {
 
             }else if(usernameField.getText().length() == 15 && passwordField.getText().length() < 15){
 
-                if(studentObj.isStudents(usernameField)){
-                    errorLoginMessage.setVisible(false);
+                try {
+                    if(studentObj.isStudents(usernameField)){
+                        errorLoginMessage.setVisible(false);
 
-                    studentObj.isStudents(usernameField);
+                        studentObj.isStudents(usernameField);
 
-                }else{
+                    }else{
+                        errorLoginMessage.setVisible(true);
+                    }
+                } catch (IllegalAdminAccess pesanError) {
+                    errorLoginMessage.setText(pesanError.getMessage());
                     errorLoginMessage.setVisible(true);
                 }
             }else{
