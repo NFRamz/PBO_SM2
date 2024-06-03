@@ -14,12 +14,10 @@ public class PrisonerTest {
         System.out.println("\nPrisoner 2 (baru): " + twitch.getName() + ", Height: " + twitch.getHeight() + "m, Sentence: " + twitch.getSentence() + " years\n");
 
 
-        System.out.println("apakaah buba dan twitch sama? " + (bubba.equals(twitch)));
         System.out.println("apakaah buba dan twitch sama? " + (bubba == twitch));
 
         bubba = twitch;
 
-        System.out.println("apakaah buba dan twitch sama? " + (bubba.equals(twitch)));
         System.out.println("apakaah buba dan twitch sama? " + (bubba == twitch));
 
     }
