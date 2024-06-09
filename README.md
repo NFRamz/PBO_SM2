@@ -31,4 +31,4 @@ Side Projects - Web      | [![Side Project Badge](https://img.shields.io/badge/-
 Reach Me                 | [![Gmail Badge](https://img.shields.io/badge/-Gmail-e54448?style=flat&logo=Gmail&logoColor=white)](mailto:radhinallhaady@gmail.com) [![](https://img.shields.io/badge/Facebook-blue?logo=Facebook&logoColor=blue&labelColor=white)](https://www.facebook.com/true.min.180)[![](https://img.shields.io/badge/Whatsapp-CHAT-red?logo=Whatsapp&logoColor=Brightgreen&labelColor=white)](https://wa.me/6282373158947?text=Asalamualaikum+bang)
 
 
-Last Edited on: 10/07/2024
+Last Edited on: 10/06/2024
