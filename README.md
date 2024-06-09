@@ -29,7 +29,7 @@
   <a href="https://Instagram.com/radhin-al-haadi"><img src="https://img.shields.io/badge/Instagram%20-%23cc6699.svg?&style=for-the-badge&logo=Instagram&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 </p>
-  <a href="https://github.com/radhin123"><img src="https://cardivo.vercel.app/api?name=Resti%20 &description=Saya ingin dia datang kepada saya Jika dia benar-benar tertarik, dia tidak akan main-main. Dia akan terus melihat Anda dan lebih sering tersenyum. Ini bukan tiba-tiba—ini lampu hijau Anda untuk berbicara dengannya.&image=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFrwzg2Pqv93cV8BQkuFvEruu65unRd3FDjg&usqp=CAU&usqp=CAU&backgroundColor=%23ecf0f1" /><a>
+  <a href="https://github.com/NFRamz"><img src="https://cardivo.vercel.app/api?name=Resti%20 &description=Saya ingin dia datang kepada saya Jika dia benar-benar tertarik, dia tidak akan main-main. Dia akan terus melihat Anda dan lebih sering tersenyum. Ini bukan tiba-tiba—ini lampu hijau Anda untuk berbicara dengannya.&image=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFrwzg2Pqv93cV8BQkuFvEruu65unRd3FDjg&usqp=CAU&usqp=CAU&backgroundColor=%23ecf0f1" /><a>
 <!---<a href="https://github.com/radhin123"><img src="https://cardivo.vercel.app/api?name=MASYA%20 Mardelisya&description=Saya ingin dia datang kepada saya Jika dia benar-benar tertarik, dia tidak akan main-main. Dia akan terus melihat Anda dan lebih sering tersenyum. Ini bukan tiba-tiba—ini lampu hijau Anda untuk berbicara dengannya.&image=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFrwzg2Pqv93cV8BQkuFvEruu65unRd3FDjg&usqp=CAU&usqp=CAU&backgroundColor=%23ecf0f1" /><a>-->
 <p align "center">
 -----
@@ -55,37 +55,5 @@ Side Projects - App <img width=200/> | [![MahoMangaDownloader Badge](https://img
 Side Projects - Web      | [![Side Project Badge](https://img.shields.io/badge/-project.zmcx16.moe-00fa9a?style=flat&logoColor=white)](https://project.zmcx16.moe/) [![Axis Cult Badge](https://img.shields.io/badge/-Axis%20Cult-00eeff?style=flat&logoColor=white)](https://axiscult.zmcx16.moe/) [![Norn Minehunter Badge](https://img.shields.io/badge/-Norn%20Minehunter-gold?style=flat&logoColor=white)](https://norn-minehunter.zmcx16.moe/) [![TW Stock Lottery Secretary Badge](https://img.shields.io/badge/-TW%20Stock%20Lottery%20Secretary-3b5998?style=flat&logoColor=white)](https://www.facebook.com/%E8%82%A1%E7%A5%A8%E6%8A%BD%E7%B1%A4%E5%B0%8F%E7%A7%98%E6%9B%B8-115560563215006/) [![Protobuf Deserializer Badge](https://img.shields.io/badge/-Protobuf%20Deserializer-red?style=flat&logoColor=white)](https://protobuf-deserializer.zmcx16.moe/)
 Reach Me                 | [![Gmail Badge](https://img.shields.io/badge/-Gmail-e54448?style=flat&logo=Gmail&logoColor=white)](mailto:radhinallhaady@gmail.com) [![](https://img.shields.io/badge/Facebook-blue?logo=Facebook&logoColor=blue&labelColor=white)](https://www.facebook.com/true.min.180)[![](https://img.shields.io/badge/Whatsapp-CHAT-red?logo=Whatsapp&logoColor=Brightgreen&labelColor=white)](https://wa.me/6282373158947?text=Asalamualaikum+bang)
 
-### Github stats
-<!-- blog start -->
-<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=radhin123&theme=react-dark" alt="radhin123" /></p>
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=radhin123&show_icons=true&theme=react-dark)<br>
-  </a>
-</p>
-<br>
- <img src="https://github-readme-stats.vercel.app/api/top-langs?username=radhin123&langs_count=10&show_icons=true&locale=en&layout=compact&theme=react-dark" alt="7oSkaaa" height="192px"/>
-  <br/>
-
-[![radhin123 Trips' Activity Graph](https://activity-graph.herokuapp.com/graph?username=radhin123&custom_title=Radhin%20Trips's%20Contribution%20Graph&theme=react-dark&bg_color=282828&hide_border=true&line=d1a01f&point=c58545)](https://abhigyantrips.dev)
-
-## Git profile Trophies
-<br/>
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=radhin123&layout=compact&theme=react-dark" alt="7oskaaa" /></a> </p>
-<br/>
-
-### Other Projects
-
-**SelfBot**
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=radhin123&repo=Alphab0t12&theme=buefy)](https://github.com/radhin123/Alphab0t12)
-
-**bayles-md**
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=radhin123&repo=md-V1&theme=buefy)](https://github.com/radhin123/md-v1)
-<!-- blog end -->
-More on [blog.zmcx16.moe](https://blog.zmcx16.moe/)
-
-
-----
------
-Credits: [zmcx16](https://github.com/zmcx16)
-
-Last Edited on: 03/09/2020
+Last Edited on: 10/07/2024
