@@ -9,8 +9,8 @@
 
 <br>
   <p align="center">
-<a href="#"><img title="Leviathan" src="https://img.shields.io/badge/NF_ramz -green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-  <a href="https://github.com/NFRamz"><img src="https://cardivo.vercel.app/api?name=NF_Ramz haady&description=Hai,%20saya%20Radhin%20dan%20saya%20hanya%20seorang%20programmer%20pemula.%20dan%20saya%20tidak%20punya%20seorang%20teman.%20%2.&image=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLsSI7eajxhLwkdMqO3p1WzwCxN-8P2ctSoA&usqp=CAU&usqp=CAU&backgroundColor=%23ecf0f1&instagram=radhin-al-haadi&github=radhin123&pattern=leaf&colorPattern=%23eaeaea" /><a>
+<a href="#"><img title="NFRamz" src="https://img.shields.io/badge/NF_ramz -green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+  <a href="https://github.com/NFRamz"><img src="https://cardivo.vercel.app/api?name=NF_Ramz /><a>
 </p>
 
 <!---img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FFERDIZ-afk" alt="PENGGUNJUNG GITHUB"-->
