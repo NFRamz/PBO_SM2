@@ -10,7 +10,7 @@
 <br>
   <p align="center">
 <a href="#"><img title="NFRamz" src="https://img.shields.io/badge/NF_ramz -green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-  <a href="https://github.com/NFRamz"><img src="https://cardivo.vercel.app/api?name=NF_Ramz /><a>
+  <a href="https://github.com/NFRamz"><img src="https://cardivo.vercel.app/api?name=NF_Ramz<a>
 </p>
 
 <!---img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FFERDIZ-afk" alt="PENGGUNJUNG GITHUB"-->
