@@ -12,24 +12,9 @@
 <a href="#"><img title="NFRamz" src="https://img.shields.io/badge/NF_ramz -green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
   <a href="https://github.com/NFRamz"></a>
 </p>
-
 <p align='center'>
-
-  <a href="https://wa.me//085234508962"><img src="https://img.shields.io/badge/whatsApp%20-%23339933.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://Instagram.com/radhin-al-haadi"><img src="https://img.shields.io/badge/Instagram%20-%23cc6699.svg?&style=for-the-badge&logo=Instagram&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-
 </p>
-  <a href="https://github.com/NFRamz"><img src="https://cardivo.vercel.app/api?name=Resti%20 &description=Saya ingin dia datang kepada saya Jika dia benar-benar tertarik, dia tidak akan main-main. Dia akan terus melihat Anda dan lebih sering tersenyum. Ini bukan tiba-tiba—ini lampu hijau Anda untuk berbicara dengannya.&image=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFrwzg2Pqv93cV8BQkuFvEruu65unRd3FDjg&usqp=CAU&usqp=CAU&backgroundColor=%23ecf0f1" /><a>
-<!---<a href="https://github.com/radhin123"><img src="https://cardivo.vercel.app/api?name=MASYA%20 Mardelisya&description=Saya ingin dia datang kepada saya Jika dia benar-benar tertarik, dia tidak akan main-main. Dia akan terus melihat Anda dan lebih sering tersenyum. Ini bukan tiba-tiba—ini lampu hijau Anda untuk berbicara dengannya.&image=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFrwzg2Pqv93cV8BQkuFvEruu65unRd3FDjg&usqp=CAU&usqp=CAU&backgroundColor=%23ecf0f1" /><a>-->
-<p align "center">
 -----
-</p>
-<p align="center">
-<img src="./image/FB_IMG_1625987973831.jpg" alt="Leviathan" width="500"/>
-</p>
-<p align="center">
-
-</p>
 
 ------
 <p align="center">
