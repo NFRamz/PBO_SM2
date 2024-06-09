@@ -6,15 +6,8 @@
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Universitas+Muhammadiyah+Malang;Fakultas+Teknik;Informatika;Pemograman+Berorientasi+Objek;Semester+2;Follow+me;See+You;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
 </p>
 <br>
-<p align="center"> 
-	<img src="https://komarev.com/ghpvc/?username=radhin123&label=Profile%20views&color=0e75b6&style=plastic" alt="7oSkaaa" /> 
-	<a href = "https://commits.top/egypt.html" target="_blank">
-		<img src="https://enfsgag3ayy6w9q.m.pipedream.net/&style=plastic" alt="radhin123" target="_blank"/> 
-	</a>
-<p align='center'>
-       <!--<img src="https://avatarfiles.alphacoders.com/108/thumb-108886.gif" alt="FERDI Z-AFK" width="150" class="rounded-circle img-thumbnail" /> -->
-        <br>
-  <a href="#"><img src="https://visitor-badge.glitch.me/badge?page_id=radhin123.radhin123??style=for-the-badge&logo=appveyor"></a><br>
+
+<br>
   <p align="center">
 <a href="#"><img title="Leviathan" src="https://img.shields.io/badge/NF_ramz -green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
   <a href="https://github.com/NFRamz"><img src="https://cardivo.vercel.app/api?name=NF_Ramz haady&description=Hai,%20saya%20Radhin%20dan%20saya%20hanya%20seorang%20programmer%20pemula.%20dan%20saya%20tidak%20punya%20seorang%20teman.%20%2.&image=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLsSI7eajxhLwkdMqO3p1WzwCxN-8P2ctSoA&usqp=CAU&usqp=CAU&backgroundColor=%23ecf0f1&instagram=radhin-al-haadi&github=radhin123&pattern=leaf&colorPattern=%23eaeaea" /><a>
