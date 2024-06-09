@@ -18,9 +18,7 @@
   <a href="#"><img src="https://img.shields.io/badge/whatsApp%20-%23339933.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.instagram.com/nf_ramz/"><img src="https://img.shields.io/badge/Instagram%20-%23cc6699.svg?&style=for-the-badge&logo=Instagram&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
-=====================================================================================================================================
 
-------
 <p align="center">
 
 ## Profile
